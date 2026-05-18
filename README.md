@@ -40,8 +40,9 @@ JavaScript (Node.js)
 Faker (dados dinâmicos)
 
 
-🧱 Estrutura do projeto A estrutura foi organizada com foco em escalabilidade e separação de responsabilidades: DESAFIO_CYPRESS
-'
+🧱 Estrutura do projeto A estrutura foi organizada com foco em escalabilidade e separação de responsabilidades: 
+
+DESAFIO_CYPRESS
 │
 ├── cypress
 │   ├── e2e
@@ -77,7 +78,6 @@ Faker (dados dinâmicos)
 ├── package.json
 ├── package-lock.json
 └── README.md
-'
 
 🔎 Padrões e boas práticas aplicadas
 
