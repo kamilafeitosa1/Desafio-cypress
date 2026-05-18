@@ -40,7 +40,42 @@ JavaScript (Node.js)
 Faker (dados dinâmicos)
 
 
-🧱 Estrutura do projeto A estrutura foi organizada com foco em escalabilidade e separação de responsabilidades: DESAFIO_CYPRESS │ ├── cypress │ ├── e2e │ │ ├── back-end │ │ │ ├── api.feature │ │ │ └── site.feature │ │ │ ├── fixtures │ │ └── example.json │ │ │ ├── plugins │ │ └── file-tasks.js │ │ │ ├── support │ │ ├── pages │ │ │ ├── API │ │ │ ├── adicionarCarrinho.page.js │ │ │ ├── cadastro.page.js │ │ │ └── portal.page.js │ │ │ │ │ ├── step-definitions │ │ │ ├── automationexercise.cy.js │ │ │ ├── formulario.cy.js │ │ │ └── item.cy.js │ │ │ │ │ ├── commands.js │ │ └── e2e.js │ ├── node_modules ├── .gitignore ├── cypress.config.js ├── cypress.env.json ├── package.json ├── package-lock.json └── README.md
+🧱 Estrutura do projeto A estrutura foi organizada com foco em escalabilidade e separação de responsabilidades: DESAFIO_CYPRESS
+│
+├── cypress
+│   ├── e2e
+│   │   ├── back-end
+│   │   │   ├── api.feature
+│   │   │   └── site.feature
+│   │
+│   ├── fixtures
+│   │   └── example.json
+│   │
+│   ├── plugins
+│   │   └── file-tasks.js
+│   │
+│   ├── support
+│   │   ├── pages
+│   │   │   ├── API
+│   │   │   ├── adicionarCarrinho.page.js
+│   │   │   ├── cadastro.page.js
+│   │   │   └── portal.page.js
+│   │   │
+│   │   ├── step-definitions
+│   │   │   ├── automationexercise.cy.js
+│   │   │   ├── formulario.cy.js
+│   │   │   └── item.cy.js
+│   │   │
+│   │   ├── commands.js
+│   │   └── e2e.js
+│
+├── node_modules
+├── .gitignore
+├── cypress.config.js
+├── cypress.env.json
+├── package.json
+├── package-lock.json
+└── README.md
 
 🔎 Padrões e boas práticas aplicadas
 
