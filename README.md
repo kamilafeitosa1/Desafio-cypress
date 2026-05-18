@@ -1,6 +1,7 @@
 🚀 Desafio Cypress - Automação UI e API
 📌 Sobre o projeto
 Este projeto tem como objetivo automatizar testes de um sistema de e-commerce utilizando Cypress, cobrindo tanto fluxos Web (UI) quanto testes de API, aplicando boas práticas de automação, organização e segurança.
+
 O sistema alvo utilizado foi:
 👉 https://www.automationexercise.com
 
@@ -96,13 +97,17 @@ git clone https://github.com/seu-usuario/seu-repo.git
 
 2. Instalar dependências
 npm install
+
 3. Executar os testes
+
 Modo interativo:
 npx cypress open
+
 Modo headless:
 npx cypress run
 
 ⚙️ Configuração
+
 Crie o arquivo:
 cypress.env.json
 
@@ -133,5 +138,7 @@ Kamila Feitosa
 Este projeto foi desenvolvido com foco em:
 
 Código limpo e organizado
+
 Facilidade de manutenção
+
 Escalabilidade dos testes
